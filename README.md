@@ -12,13 +12,12 @@ Landing + download page for **Whiteboard**, the offline drawing app for Windows 
 | `index.html` | Landing page (favicons/OG point at the icon files) |
 | `whiteboard-icon.ico` | Favicon + app icon |
 | `whiteboard-thumb.png` | Hero + link-preview image |
-| `Whiteboard-Setup-1.1.1.exe` | Windows installer |
-| `Whiteboard-Portable-1.1.1.zip` | Portable ZIP |
+| `Whiteboard-Portable-1.1.1.zip` | Portable ZIP (the only download offered) |
 
 ## Releasing a new version
 
-1. Copy the new `Whiteboard-Setup-*.exe` / `Whiteboard-Portable-*.zip` into this folder.
-2. Update the two links + version strings + SHA256 hashes in `index.html`.
+1. Copy the new `Whiteboard-Portable-*.zip` into this folder.
+2. Update the link + version string + SHA256 hash in `index.html`.
 3. Commit + push to `main` — Cloudflare redeploys automatically.
 
 © 2026 ststudiosng. Whiteboard™ is a trademark of ststudiosng.
