@@ -12,7 +12,7 @@ Landing + download page for **Whiteboard**, the offline drawing app for Windows 
 | `index.html` | Landing page (favicons/OG point at the icon files) |
 | `whiteboard-icon.ico` | Favicon + app icon |
 | `whiteboard-thumb.png` | Hero + link-preview image |
-| `Whiteboard-Portable-1.1.1.zip` | Portable ZIP (the only download offered) |
+| `Whiteboard-Portable-1.1.3.zip` | Portable ZIP (the only download offered) |
 
 ## Releasing a new version
 
