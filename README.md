@@ -2,7 +2,7 @@
 
 Landing + download page for **Whiteboard**, the offline drawing app for Windows (₦1,000 one-time per PC).
 
-- Live site: https://whiteboard.pages.dev (Cloudflare Pages, deploys from `main`)
+- Live site: https://whiteboard-e8n.pages.dev (Cloudflare Pages, direct upload: `npx wrangler pages deploy . --project-name=whiteboard`)
 - App source + seller tools live in a separate local folder (not public here).
 
 ## Files
@@ -17,7 +17,7 @@ Landing + download page for **Whiteboard**, the offline drawing app for Windows 
 ## Releasing a new version
 
 1. Copy the new `Whiteboard-Portable-*.zip` into this folder.
-2. Update the link + version string + SHA256 hash in `index.html`.
-3. Commit + push to `main` — Cloudflare redeploys automatically.
+2. Update the link + version string in `index.html`.
+3. Commit + push `main`, then run `npx wrangler pages deploy . --project-name=whiteboard` (GitHub push alone does NOT deploy — deploy is direct upload).
 
 © 2026 ststudiosng. Whiteboard™ is a trademark of ststudiosng.
